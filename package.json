@@ -1,0 +1,16 @@
+{
+    "name": "com.huseyinbaglayici.es3-key-manager",
+    "version": "1.0.0",
+    "displayName": "ES3 Key Manager",
+    "description": "Editor window for defining Easy Save 3 keys with types and default values in one place. Includes a runtime accessor (ES3Keys) so gameplay code never hardcodes key strings or defaults.",
+    "unity": "2021.3",
+    "keywords": [
+        "easy save",
+        "es3",
+        "save system",
+        "editor tool"
+    ],
+    "author": {
+        "name": "huseyinbaglayici"
+    }
+}
