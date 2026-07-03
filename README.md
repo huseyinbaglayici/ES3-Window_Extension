@@ -2,6 +2,9 @@
 
 Editor window for defining Easy Save 3 keys (name, type, default value) in one place, instead of hardcoding strings across the project.
 
+<img src="Docs/window.png" width="320">
+
+
 Requires [Easy Save 3](https://assetstore.unity.com/packages/tools/utilities/easy-save-the-complete-save-data-serialization-asset-768) (not included).
 
 ## Install
