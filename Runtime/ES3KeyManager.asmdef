@@ -1,0 +1,16 @@
+{
+    "name": "ES3KeyManager",
+    "rootNamespace": "ES3KeyManager",
+    "references": [
+        "EasySave3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
