@@ -45,35 +45,35 @@ namespace ES3KeyManager
         public static int LoadInt(string key)
         {
             var e = GetEntry(key);
-            return ES3.Load(key, e != null ? e.intDefault : 0);
+            return ES3.Load<int>(key, e != null ? e.intDefault : 0);
         }
         public static void SaveInt(string key, int value) => ES3.Save(key, value);
 
         public static float LoadFloat(string key)
         {
             var e = GetEntry(key);
-            return ES3.Load(key, e != null ? e.floatDefault : 0f);
+            return ES3.Load<float>(key, e != null ? e.floatDefault : 0f);
         }
         public static void SaveFloat(string key, float value) => ES3.Save(key, value);
 
         public static bool LoadBool(string key)
         {
             var e = GetEntry(key);
-            return ES3.Load(key, e != null && e.boolDefault);
+            return ES3.Load<bool>(key, e != null && e.boolDefault);
         }
         public static void SaveBool(string key, bool value) => ES3.Save(key, value);
 
         public static string LoadString(string key)
         {
             var e = GetEntry(key);
-            return ES3.Load(key, e != null ? e.stringDefault : string.Empty);
+            return ES3.Load<string>(key, e != null ? e.stringDefault : string.Empty);
         }
         public static void SaveString(string key, string value) => ES3.Save(key, value);
 
         public static byte LoadByte(string key)
         {
             var e = GetEntry(key);
-            return ES3.Load(key, e != null ? e.byteDefault : (byte)0);
+            return ES3.Load<byte>(key, e != null ? e.byteDefault : (byte)0);
         }
         public static void SaveByte(string key, byte value) => ES3.Save(key, value);
 
