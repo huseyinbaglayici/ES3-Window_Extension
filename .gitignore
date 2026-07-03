@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vs/
+*.csproj.user
+
+# Unity (only relevant if opened inside a test project)
+Library/
+Temp/
+Logs/
+obj/
