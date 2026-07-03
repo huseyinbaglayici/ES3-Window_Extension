@@ -42,7 +42,8 @@ namespace ES3KeyManager.Editor
                     entry.stringDefault = EditorGUILayout.TextField("Default", entry.stringDefault);
                     break;
                 case ES3PrimitiveType.Byte:
-                    entry.byteDefault = (byte)EditorGUILayout.IntSlider("Default", entry.byteDefault, 0, 255);
+                    entry.byteDefault = (byte)Mathf.Clamp(
+                        EditorGUILayout.IntField("Default", entry.byteDefault), 0, 255);
                     break;
             }
         }
